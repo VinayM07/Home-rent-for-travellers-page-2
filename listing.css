@@ -1,0 +1,163 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+.container{
+    padding:0 7%;
+    
+}
+nav {
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:20px 7%;
+    background-color: #000;
+   
+    height:100px;
+    background: #fff;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.5);
+}
+nav li {
+    
+    list-style: none;
+    display: inline-block;
+   margin:10px 30px;
+}
+nav li a {
+    text-decoration: none;
+    color:#181616;
+}
+nav .btn{
+    background: #ff5361;
+    text-decoration: none;
+    color:#000;
+    padding:8px 20px;
+    border-radius:20px;
+    font-size:14px;
+}
+footer div img {
+    width:30px;
+    margin: 0 10px;
+}
+footer div {
+    margin:40px 50px;
+   
+    text-align: center;
+}
+footer hr {
+   width:100%;
+    margin-top:20px;
+}
+.left-col h1 {
+    margin-bottom:30px;
+}
+.left-col hr {
+    margin-bottom: 20px;
+}
+.list-container {
+    margin-top:50px;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.right-col{
+    
+    
+    flex-basis:25%;
+    padding:10px;
+}
+.view {
+    margin:10px;
+    text-align: right;
+    text-decoration: none;
+    margin-top:20px;
+}
+.view a {
+    text-decoration: none;
+    margin-right:10px;
+    
+}
+.sidebar{
+    border:1px solid #ccc;
+    padding:10px;
+}
+.sidebar h3 {
+    margin:10px;
+    margin-left:0px;
+}
+.sidebar h2 {
+    font-weight: 700;
+}
+.left-col {
+    flex-basis:70%;
+}
+.house {
+    display: flex;
+    
+ 
+    padding: 30px 0;
+    border-top:1px solid #ccc;
+}
+.house img {
+    max-width:400px;
+    border-radius: 10px;
+    margin-right:20px;
+}
+.house-info .fun {
+    text-align: right;
+    margin-top:50px;
+}
+.house-info {
+  
+    flex:1;
+}
+.house-info h2 {
+    margin:5px 0;
+}
+ .rating {
+   
+    display: flex;
+    margin-top:5px;
+}
+.house-info  img{
+   color: antiquewhite;
+    width:20px;
+    margin-right: 0px;
+    
+}
+
+.filter p {
+    display: inline;
+    
+}
+.filter span{
+    float: right;
+    margin-right: 20px;
+}
+.right-col .filter div{
+ text-align: right;
+ flex:1;
+}
+.imagination img {
+ width:15px;
+ margin:0 10px;
+}
+.imagination span {
+    margin:3px;
+}
+.imagination {
+    display: flex;
+    
+    justify-content: center;
+    margin-top:10px;
+}
+.rev {
+    transform: rotate(180deg);
+}
+@media only screen and (max-width:700px){
+    .right-col, .right-col, .house-img, .house-info{
+        width: 100%;
+        flex-basis: 100%;
+    }
+}
